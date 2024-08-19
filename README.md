@@ -9,6 +9,11 @@ Category List: Fetches and displays a list of recipe categories from an external
 Meal List: Upon selecting a category, the app fetches and displays a list of meals within that category.
 Meal Detail: Provides detailed information about a selected meal, including a list of ingredients.
 
+# Screenshots
+<img src="https://github.com/user-attachments/assets/669553c3-6fb9-48ef-978f-2ded7078800a" width="300" height="500">
+<img src="https://github.com/user-attachments/assets/2b113794-2817-47f5-9cee-e3b73adffee7" width="300" height="500">
+<img src="https://github.com/user-attachments/assets/a49cfec7-58ac-49ae-ba6a-1d78b3d53604" width="300" height="500">
+
 # Installation
 Clone the repository:
 git clone https://github.com/ovigarciarivas/RecipeReady.git
