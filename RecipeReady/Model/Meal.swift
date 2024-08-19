@@ -1,5 +1,5 @@
 //
-//  Dessert.swift
+//  Meal.swift
 //  RecipeReady
 //
 //  Created by ovi on 8/14/24.
@@ -7,11 +7,11 @@
 
 import Foundation
 
-struct Desserts: Codable {
-    let meals: [Dessert]
+struct Meals: Codable {
+    let meals: [Meal]
 }
 
-struct Dessert: Identifiable, Codable {
+struct Meal: Identifiable, Codable {
     var strMeal: String
     var strMealThumb: String
     var idMeal: String
