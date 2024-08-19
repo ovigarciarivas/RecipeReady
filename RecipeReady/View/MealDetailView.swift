@@ -26,6 +26,9 @@ struct MealDetailView: View {
                     
                     // Display list of ingredients
                     ingredientsList(mealDetail)
+                    
+                    // Display meal instructions
+                    mealInstructions(mealDetail)
                 }
             } else {
                 ProgressView()
@@ -109,6 +112,19 @@ struct MealDetailView: View {
                     .padding(.vertical)
                 }
             }
+        }
+        .padding(.horizontal)
+    }
+    
+    private func mealInstructions(_ mealDetail: MealDetail.Meal) -> some View {
+        
+        VStack(alignment: .leading) {
+            Text("Instructions")
+                .font(.title2)
+                .fontWeight(.bold)
+                .padding(.vertical)
+            
+            Text(mealDetail.strInstructions)
         }
         .padding(.horizontal)
     }
